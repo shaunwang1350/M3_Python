@@ -9,18 +9,18 @@
 
 The following summarizes the general logic of PyPoll_Challenge.py:
 
-###Imports / Paths / Declarations
+### Imports / Paths / Declarations
 
 * The code begins by importing modules and creating relative path variables. Followed by declaring variables needed for later.
 
-###Input
+### Input
 
 * The code states a 'with' function to retrieve data from input file (election_results.txt) 
 * The code traverse through the rows within the input data inorder to get totalvotes, candidate names, county names, and the count of votes for each variable.
 * The code retrieves possible candidate options, and create a dictionary for each. Then the value for each candidate key-pair dict is incremented.
 * Similar to the candidate code above, the following code retrievies possible county options and creates a dictionary for each. hen the value for each candidate key-pair dict is incremented.
 
-###Output
+### Output
 
 * The code ends the previous 'with' function and begins a new 'with' function inorder to write an output data.
 *The code prints and writes previous variables into analysis.txt, as it traverses through existing county and candidate options (list variable) inorder to select winner for each. 
