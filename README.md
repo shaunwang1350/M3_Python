@@ -1,4 +1,4 @@
-# M3_Python Challenge
+# Python Challenge
 ## Objectives
 
 * Calculate the oter turnout for each county as well as the percentage of votes each county contributed to the eleciton
